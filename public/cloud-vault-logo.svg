@@ -1,0 +1,54 @@
+<svg width="1100" height="860" viewBox="0 0 1100 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cloudGrad" x1="220" y1="100" x2="780" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1DD5FF"/>
+      <stop offset="0.5" stop-color="#0B9DE8"/>
+      <stop offset="1" stop-color="#0369A1"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="350" y1="230" x2="700" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.5" stop-color="#C8D7E5"/>
+      <stop offset="1" stop-color="#7D8EA3"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="276" y1="600" x2="828" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.45" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M292 396C247 396 210 434 210 479C210 521 245 555 286 555H772C825 555 869 510 869 458C869 407 829 367 778 367C763 287 692 230 605 230C526 230 452 280 420 348C393 334 364 327 333 327C257 327 196 388 196 466C196 470 196 474 197 478C156 486 126 523 126 566C126 619 169 662 222 662H782C849 662 902 609 902 542C902 475 849 423 782 423H771C763 422 755 421 748 421C746 421 744 421 742 421C730 343 667 286 589 286C532 286 477 315 440 359C410 338 374 326 336 326C311 326 286 330 263 340C278 371 292 395 292 396Z" fill="url(#cloudGrad)"/>
+    <path d="M221 582H782C834 582 876 540 876 488C876 437 834 394 783 394H770C760 335 699 287 634 287C560 287 494 336 474 402C463 398 451 395 437 395C380 395 334 441 334 498C334 500 334 503 334 506C299 514 272 542 272 578C272 619 305 652 347 652H782C834 652 876 610 876 558H221V582Z" fill="#0C7CC5" fill-opacity="0.28"/>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <circle cx="523" cy="390" r="146" fill="url(#ringGrad)" opacity="0.96"/>
+    <circle cx="523" cy="390" r="120" fill="#111827" opacity="0.93" stroke="#D5E2F2" stroke-width="5"/>
+    <circle cx="523" cy="390" r="93" fill="#1B2436" stroke="#E5F1FC" stroke-width="6"/>
+    <path d="M471 433L523 338L575 433" stroke="url(#ringGrad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M497 392H549" stroke="url(#ringGrad)" stroke-width="18" stroke-linecap="round"/>
+    <g opacity="0.9">
+      <circle cx="523" cy="390" r="18" fill="#D7E6F5"/>
+      <circle cx="523" cy="390" r="9" fill="#0F172A"/>
+    </g>
+  </g>
+
+  <g opacity="0.98">
+    <path d="M518 229C518 229 553 249 562 286" stroke="#41D0FF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M563 286C583 296 608 299 632 294C647 291 660 288 672 279" stroke="#41D0FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M451 293C476 280 501 278 526 287" stroke="#41D0FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M430 323C452 309 476 306 501 316" stroke="#41D0FF" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <text x="550" y="710" text-anchor="middle" font-size="148" font-weight="800" font-family="Segoe UI, Arial, sans-serif" fill="url(#wordGrad)" letter-spacing="-7">Cloud Vault</text>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0EA5E9" flood-opacity="0.4"/>
+    </filter>
+    <filter id="shadow2" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+</svg>
